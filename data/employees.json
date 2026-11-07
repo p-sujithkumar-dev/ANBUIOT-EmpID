@@ -102,7 +102,7 @@
     "phoneDisplay": "82202 62041",
     "profileImage": "assets/AIOTHR2604.jpg",
     "companyLogo": "assets/company-logo.png",
-    "themeColor": "red",
+    "themeColor": "blue",
     "socials": [
       {
         "name": "LinkedIn",
@@ -202,7 +202,11 @@
         "url": "https://www.linkedin.com/in/p-sujithkumar-dev/",
         "icon": "fa-brands fa-linkedin-in"
       },
-      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/qr/4BNSJGW346WVD1",
+        "icon": "fa-brands fa-whatsapp"
+      },
       {
         "name": "Instagram",
         "url": "",
@@ -249,30 +253,30 @@
   },
   {
     "employeeId": "AIOT2609",
-    "name": "EMPLOYEE NINE",
-    "designation": "UI UX DESIGNER",
-    "department": "DESIGN",
-    "email": "employee9@gmail.com",
-    "phone": "",
-    "phoneDisplay": "",
+    "name": "THIRU MOORTHY T",
+    "designation": "MEDIA MARKETING DIRECTOR/EDITOR",
+    "department": "MEDIA & MARKETING",
+    "email": "thiru.anbuiot@gmail.com",
+    "phone": "+91 9344504172",
+    "phoneDisplay": "93445 04172",
     "profileImage": "assets/AIOT2609.jpg",
     "companyLogo": "assets/company-logo.png",
     "themeColor": "red",
     "socials": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/employee9",
+        "url": "",
         "icon": "fa-brands fa-linkedin-in"
       },
       { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/employee9",
+        "url": "https://www.instagram.com/itzthiru_r3?cplk=MTFjbHBleXZqOGY0Zg==",
         "icon": "fa-brands fa-instagram"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/employee9",
+        "url": " ",
         "icon": "fa-brands fa-github"
       },
       { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
