@@ -280,30 +280,30 @@
   },
   {
     "employeeId": "AIOT2610",
-    "name": "EMPLOYEE TEN",
-    "designation": "HARDWARE ENGINEER",
-    "department": "HARDWARE",
-    "email": "employee10@gmail.com",
-    "phone": "",
-    "phoneDisplay": "",
+    "name": "LOHINI PRIYA P",
+    "designation": "REPORT EXECUTIVE",
+    "department": "DOCUMENTAION & REPORTING",
+    "email": "lohini.anbuiot@gmail.com",
+    "phone": "+916383335656",
+    "phoneDisplay": "63833 35656",
     "profileImage": "assets/AIOT2610.jpg",
     "companyLogo": "assets/company-logo.png",
     "themeColor": "orange",
     "socials": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/employee10",
+        "url": "",
         "icon": "fa-brands fa-linkedin-in"
       },
       { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/employee10",
+        "url": "https://www.instagram.com/lohini_.531?vrfl=czI4dXo1Zzdsdzdh",
         "icon": "fa-brands fa-instagram"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/employee10",
+        "url": "",
         "icon": "fa-brands fa-github"
       },
       { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
