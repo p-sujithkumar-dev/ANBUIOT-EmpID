@@ -32,30 +32,30 @@
   },
   {
     "employeeId": "AIOTCEO2602",
-    "name": "CEO NAME",
+    "name": "NAVIN S",
     "designation": "CHIEF EXECUTIVE OFFICER (CEO)",
     "department": "MANAGEMENT",
     "email": "ceo@anbuiot.com",
-    "phone": "",
-    "phoneDisplay": "",
+    "phone": "+91 9843732197",
+    "phoneDisplay": "98437 32197",
     "profileImage": "assets/AIOTCEO2602.jpg",
     "companyLogo": "assets/company-logo.png",
     "themeColor": "blue",
     "socials": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/ceo",
+        "url": "",
         "icon": "fa-brands fa-linkedin-in"
       },
       { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/ceo",
+        "url": "https://www.instagram.com/kolaru_navin_006?obrf=MTgxbThyOTF4ZHh0Mg==",
         "icon": "fa-brands fa-instagram"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/ceo",
+        "url": "",
         "icon": "fa-brands fa-github"
       },
       { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
