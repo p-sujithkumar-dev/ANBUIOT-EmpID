@@ -217,7 +217,6 @@ body {
 
     font-size: clamp(32px, 4vw, 43px);
     font-weight: 700;
-    width: 450px;
 
     letter-spacing: -1px;
 }
