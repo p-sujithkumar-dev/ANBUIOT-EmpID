@@ -125,30 +125,30 @@
   },
   {
     "employeeId": "AIOT2605",
-    "name": "EMPLOYEE FIVE",
-    "designation": "SOFTWARE DEVELOPER",
-    "department": "DEVELOPMENT",
-    "email": "employee5@gmail.com",
-    "phone": "",
-    "phoneDisplay": "",
+    "name": "NITHISH M",
+    "designation": "DESIGN & DEVELOPMENT EXECUTIVE",
+    "department": "DESIGN & DEVELOPMENT",
+    "email": "nithish.anbuiot@gmail.com",
+    "phone": "+91 9003380521",
+    "phoneDisplay": "9003380521",
     "profileImage": "assets/AIOT2605.jpg",
     "companyLogo": "assets/company-logo.png",
     "themeColor": "orange",
     "socials": [
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/employee5",
+        "url": "https://www.linkedin.com/in/m-nithish-/",
         "icon": "fa-brands fa-linkedin-in"
       },
       { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/employee5",
+        "url": "https://www.instagram.com/nithish_469?psln=MWhnMHlkZjk0NWxmdg%3D%3D",
         "icon": "fa-brands fa-instagram"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/employee5",
+        "url": "https://github.com/Nithish469",
         "icon": "fa-brands fa-github"
       },
       { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
