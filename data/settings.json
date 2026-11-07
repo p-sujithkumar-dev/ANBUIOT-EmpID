@@ -1,0 +1,10 @@
+{
+  "cardWidth": "1100px",
+  "cardMinHeight": "520px",
+  "enableTypingAnimation": true,
+  "typingSpeed": 85,
+  "deleteSpeed": 40,
+  "typingPause": 1800,
+  "enableBarcode": true,
+  "enableCursorEffect": true
+}

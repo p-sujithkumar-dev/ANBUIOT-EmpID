@@ -1,0 +1,665 @@
+
+/* =================================
+   ROOT THEME VARIABLES
+================================= */
+
+:root {
+    --accent: #a78bfa;
+    --accent-rgb: 167, 139, 250;
+
+    --card-start: #171b2b;
+    --card-end: #0e1220;
+
+    --page-background: #090b12;
+
+    --text: #ffffff;
+    --muted: #a5a9b8;
+}
+
+/* =================================
+   RESET
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    overflow-x: hidden;
+
+    font-family: "Lexend", sans-serif;
+    color: var(--text);
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(var(--accent-rgb), .12),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(var(--accent-rgb), .09),
+            transparent 35%
+        ),
+        var(--page-background);
+}
+
+/* =================================
+   MAIN CARD
+================================= */
+
+.card {
+    position: relative;
+    isolation: isolate;
+
+    display: flex;
+    align-items: center;
+
+    gap: 65px;
+
+    width: min(100%, 1100px);
+    min-height: 520px;
+
+    padding: 85px 85px 75px;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(var(--accent-rgb), .35);
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        var(--card-start),
+        var(--card-end) 75%
+    );
+
+    box-shadow:
+        0 25px 75px rgba(0,0,0,.5),
+        0 0 35px rgba(var(--accent-rgb),.1);
+
+    transform-style: preserve-3d;
+
+    transition:
+        transform .18s ease,
+        box-shadow .3s ease;
+}
+
+/* Cursor Glow */
+
+.card::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    z-index: 0;
+
+    pointer-events: none;
+
+    background: radial-gradient(
+        500px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+        rgba(var(--accent-rgb), .17),
+        transparent 65%
+    );
+}
+
+.card::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    z-index: 5;
+
+    border: 1px solid rgba(255,255,255,.04);
+    border-radius: inherit;
+
+    pointer-events: none;
+}
+
+/* =================================
+   COMPANY LOGO
+================================= */
+
+.company-logo {
+    position: absolute;
+
+    top: 28px;
+    left: 35px;
+
+    z-index: 4;
+
+    width: 200px;
+    height: 95px;
+
+    object-fit: contain;
+    object-position: left center;
+}
+
+/* =================================
+   PROFILE IMAGE
+================================= */
+
+.profile-area {
+    position: relative;
+    z-index: 2;
+
+    flex: 0 0 auto;
+
+    margin-top: 20px;
+}
+
+.profile-frame {
+    width: 250px;
+    height: 300px;
+
+    padding: 7px;
+
+    border: 2px solid var(--accent);
+    border-radius: 23px;
+
+    background: rgba(var(--accent-rgb), .1);
+
+    box-shadow:
+        0 0 30px rgba(var(--accent-rgb), .25);
+
+    transform: rotate(-3deg);
+
+    transition:
+        transform .5s ease,
+        box-shadow .5s ease;
+}
+
+.profile-frame:hover {
+    transform: rotate(0deg) scale(1.04);
+
+    box-shadow:
+        0 0 40px rgba(var(--accent-rgb), .5);
+}
+
+.profile-frame img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 17px;
+
+    object-fit: cover;
+}
+
+/* =================================
+   EMPLOYEE INFORMATION
+================================= */
+
+.profile-info {
+    position: relative;
+    z-index: 2;
+
+    flex: 1 1 auto;
+    min-width: 0;
+
+    padding-top: 35px;
+}
+
+.employee-name {
+    margin-bottom: 12px;
+
+    font-size: clamp(32px, 4vw, 43px);
+    font-weight: 700;
+    width: 450px;
+    border-bottom: 2px solid var(--accent);
+    letter-spacing: -1px;
+}
+
+/* =================================
+   DESIGNATION TYPEWRITER
+================================= */
+
+.designation {
+    min-height: 25px;
+
+    margin-bottom: 24px;
+
+    color: var(--accent);
+
+    font-size: 15px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    white-space: nowrap;
+}
+
+.typing-cursor {
+    display: inline-block;
+
+    width: 2px;
+    height: 17px;
+
+    margin-left: 4px;
+
+    vertical-align: -3px;
+
+    background: var(--accent);
+
+    box-shadow: 0 0 8px var(--accent);
+
+    animation: cursor-blink .7s step-end infinite;
+}
+
+@keyframes cursor-blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* =================================
+   EMPLOYEE ID
+================================= */
+
+.employee-id {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+    padding: 10px 16px;
+
+    border: 1px solid rgba(var(--accent-rgb), .3);
+    border-radius: 30px;
+
+    color: #e4dcff;
+
+    background: rgba(var(--accent-rgb), .08);
+
+    font-size: 13px;
+}
+
+.status-dot {
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+
+    background: var(--accent);
+
+    box-shadow: 0 0 10px var(--accent);
+
+    animation: status-blink 1.2s infinite;
+}
+
+@keyframes status-blink {
+    50% {
+        opacity: .25;
+        box-shadow: 0 0 2px var(--accent);
+    }
+}
+
+/* =================================
+   CONTACT DETAILS
+================================= */
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 17px;
+
+    margin-bottom: 28px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    width: fit-content;
+
+    color: var(--muted);
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+    transition: color .3s ease;
+}
+
+.contact-item i {
+    width: 20px;
+
+    color: var(--accent);
+
+    font-size: 17px;
+}
+
+.contact-item:hover {
+    color: var(--accent);
+}
+
+/* =================================
+   SOCIAL MEDIA BUTTONS
+================================= */
+
+.social-links {
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    gap: 17px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid rgba(var(--accent-rgb), .35);
+    border-radius: 15px;
+
+    color: var(--accent);
+
+    background: rgba(var(--accent-rgb), .07);
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+    animation: social-float 3s ease-in-out infinite;
+
+    transition:
+        color .3s ease,
+        background .3s ease,
+        box-shadow .3s ease;
+}
+
+.social-btn:nth-child(2) {
+    animation-delay: .25s;
+}
+
+.social-btn:nth-child(3) {
+    animation-delay: .5s;
+}
+
+@keyframes social-float {
+    50% {
+        translate: 0 -6px;
+    }
+}
+
+.social-btn:hover {
+    color: #111522;
+
+    background: var(--accent);
+
+    box-shadow:
+        0 0 25px rgba(var(--accent-rgb), .55);
+}
+
+.social-btn i {
+    transition: transform .3s ease;
+}
+
+.social-btn:hover i {
+    transform: rotate(12deg);
+}
+
+/* =================================
+   BARCODE
+================================= */
+
+.barcode-wrap {
+    position: absolute;
+
+    right: 65px;
+    bottom: 105px;
+
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5px;
+
+    width: 230px;
+
+    padding: 9px 10px 5px;
+
+    border-radius: 8px;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.barcode-wrap:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 22px rgba(var(--accent-rgb), .18);
+}
+
+.barcode-wrap svg {
+    display: block;
+
+    width: 100%;
+    height: 75px;
+}
+
+.barcode-label {
+    color: var(--accent);
+
+    font-size: 11px;
+    font-weight: 500;
+
+    letter-spacing: 2px;
+}
+
+/* =================================
+   DEPARTMENT WATERMARK
+================================= */
+
+.department-watermark {
+    position: absolute;
+
+    left: 55px;
+    bottom: -20px;
+
+    z-index: 0;
+
+    color: var(--accent);
+    opacity: .07;
+
+    font-size: 78px;
+    font-weight: 700;
+
+    letter-spacing: 8px;
+
+    white-space: nowrap;
+
+    pointer-events: none;
+}
+
+/* =================================
+   TABLET RESPONSIVE
+================================= */
+
+@media (max-width: 950px) {
+
+    .card {
+        gap: 35px;
+
+        padding: 85px 40px 55px;
+    }
+
+    .profile-frame {
+        width: 210px;
+        height: 260px;
+    }
+
+    .barcode-wrap {
+        position: relative;
+
+        right: auto;
+        bottom: auto;
+
+        flex: 0 0 auto;
+
+        width: 190px;
+
+        margin: 15px auto 0;
+    }
+
+    .department-watermark {
+        font-size: 55px;
+    }
+}
+
+/* =================================
+   MOBILE RESPONSIVE
+================================= */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        flex-direction: column;
+
+        gap: 25px;
+
+        width: 100%;
+        max-width: 450px;
+
+        min-height: 0;
+
+        padding: 100px 25px 45px;
+
+        text-align: center;
+    }
+
+    .profile-area {
+        margin-top: 0;
+    }
+
+    .profile-frame {
+        width: 190px;
+        height: 225px;
+    }
+
+    .profile-info {
+        width: 100%;
+
+        padding-top: 0;
+    }
+
+    .employee-name {
+        font-size: 30px;
+    }
+
+    .designation {
+        min-height: 24px;
+
+        font-size: 11px;
+
+        letter-spacing: 1px;
+
+        white-space: normal;
+    }
+
+    .typing-cursor {
+        height: 14px;
+    }
+
+    .contact-list {
+        align-items: center;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .barcode-wrap {
+        width: 210px;
+
+        margin: 0 0 10px;
+    }
+
+    .barcode-wrap svg {
+        height: 65px;
+    }
+
+    .department-watermark {
+        left: 10px;
+        bottom: -8px;
+
+        font-size: 29px;
+
+        letter-spacing: 2px;
+    }
+
+    .company-logo {
+        top: 22px;
+        left: 50%;
+
+        width: 120px;
+        height: 55px;
+
+        object-position: center;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 380px) {
+
+    .employee-name {
+        font-size: 25px;
+    }
+
+    .department-watermark {
+        font-size: 24px;
+    }
+
+    .contact-item {
+        font-size: 11px;
+    }
+}
+
+/* =================================
+   REDUCED MOTION
+================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "employeeId": "AIOTFD2601",
+    "name": "VIONTH M",
+    "designation": "FOUNDER",
+    "department": "MANAGEMENT",
+    "email": "anbuiotvinothfounder@gmail.com",
+    "phone": "+919659507735",
+    "phoneDisplay": "96595 07735",
+    "profileImage": "assets/AIOTFD2601.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "purple",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vinoth-vinoth-66b0503b1",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/lovly_vinoth_143_?vrfl=ZWhuZ3VuYmgxM3Zj",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOTCEO2602",
+    "name": "CEO NAME",
+    "designation": "CHIEF EXECUTIVE OFFICER (CEO)",
+    "department": "MANAGEMENT",
+    "email": "ceo@anbuiot.com",
+    "phone": "",
+    "phoneDisplay": "",
+    "profileImage": "assets/AIOTCEO2602.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "blue",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/ceo",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/ceo",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ceo",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOTMD2603",
+    "name": "KAROL G",
+    "designation": "MANAGING DIRECTOR (MD)",
+    "department": "MANAGEMENT",
+    "email": "karol.md.anbuiot@gmail.com",
+    "phone": "+918428929599",
+    "phoneDisplay": "84289 29599",
+    "profileImage": "assets/AIOTMD2603.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "green",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/karol-g-70027a31a/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/iz_simxn_kxrlz_0305?mdxt=dTB2NG81ZThld2Uw",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOTHR2604",
+    "name": "MORISH KAROL J",
+    "designation": "HUMAN RESOURCE MANAGER",
+    "department": "HUMAN RESOURCES",
+    "email": "morish.hr.anbuiot@gmail.com",
+    "phone": "+918220262041",
+    "phoneDisplay": "82202 62041",
+    "profileImage": "assets/AIOTHR2604.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "red",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/j-morish-karol-62bab2319/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/___s_i_n_g_a_m___?vrfl=MWdyNndqaHN0bWpzMw==",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2605",
+    "name": "EMPLOYEE FIVE",
+    "designation": "SOFTWARE DEVELOPER",
+    "department": "DEVELOPMENT",
+    "email": "employee5@gmail.com",
+    "phone": "",
+    "phoneDisplay": "",
+    "profileImage": "assets/AIOT2605.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "orange",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/employee5",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/employee5",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/employee5",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2606",
+    "name": "AISHWARYA V V ",
+    "designation": "DESIGN & DEVELOPMENT EXECUTIVE",
+    "department": "DESIGN & DEVELOPMENT",
+    "email": "aishwarya.anbuiot@gmail.com",
+    "phone": "+91 9344764045",
+    "phoneDisplay": "93447 64045",
+    "profileImage": "assets/AIOT2606.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "purple",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/v-v-aishwarya-0b928431a/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/cozy.aishu_094?xtok=YmN4Z3AyaWF2c2s=",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Aishu-94",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2607",
+    "name": "SUJITHKUMAR P",
+    "designation": "DESIGN & DEVELOPMENT EXECUTIVE",
+    "department": "DESIGN & DEVELOPMENT",
+    "email": "sujith.anbuiot@gmail.com",
+    "phone": "+91 7339127661",
+    "phoneDisplay": "73391 27661",
+    "profileImage": "assets/AIOT2607.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "blue",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/p-sujithkumar-dev/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/p-sujithkumar-dev",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2608",
+    "name": "KELVIN A",
+    "designation": "ASSISTANT HR",
+    "department": "HUMAN RESOURCES",
+    "email": "kelvinmicheal2006@gmail.com",
+    "phone": "+919789886188",
+    "phoneDisplay": "97898 86188",
+    "profileImage": "assets/AIOT2608.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "green",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2609",
+    "name": "EMPLOYEE NINE",
+    "designation": "UI UX DESIGNER",
+    "department": "DESIGN",
+    "email": "employee9@gmail.com",
+    "phone": "",
+    "phoneDisplay": "",
+    "profileImage": "assets/AIOT2609.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "red",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/employee9",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/employee9",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/employee9",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2610",
+    "name": "EMPLOYEE TEN",
+    "designation": "HARDWARE ENGINEER",
+    "department": "HARDWARE",
+    "email": "employee10@gmail.com",
+    "phone": "",
+    "phoneDisplay": "",
+    "profileImage": "assets/AIOT2610.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "orange",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/employee10",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/employee10",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/employee10",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2611",
+    "name": "SANDHIYA K V",
+    "designation": "REPORT EXECUTIVE",
+    "department": "DOCUMENTAION & REPORTING",
+    "email": "sandhiya.anbuiot@gmail.com",
+    "phone": "+919345347652",
+    "phoneDisplay": "93453-47652",
+    "profileImage": "assets/AIOT2611.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "purple",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sandhu_srii?dlrf=MTZ4NmwyampoeWZu",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2612",
+    "name": "DEEPIKHA A",
+    "designation": "TRAINER",
+    "department": "TRAINING & DEVELOPMENT",
+    "email": "deepikha.anbuiot@gmail.com",
+    "phone": "+91 8940555515",
+    "phoneDisplay": "89405 55515",
+    "profileImage": "assets/AIOT2612.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "blue",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/deepikha-a-781601433/",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2613",
+    "name": "MEGADHARSHINI S",
+    "designation": "REPORT EXECUTIVE",
+    "department": "DOCUMENTAION & REPORTING",
+    "email": "mega.aiot@gmail.com",
+    "phone": "+916385290708",
+    "phoneDisplay": "63852 90708",
+    "profileImage": "assets/AIOT2613.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "green",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/unicorn_sparkels_07?exln=MTIzMnNoYXh3M2w5ag==",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2614",
+    "name": "ABINAYADEVI M",
+    "designation": "RESEARCH ANALYST",
+    "department": "RESEARCH & INNOVATION",
+    "email": "abinayadevi.anbuiot@gmail.com",
+    "phone": "+918122439075",
+    "phoneDisplay": "81224 39075",
+    "profileImage": "assets/AIOT2614.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "red",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abinaya-devi-m",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  },
+  {
+    "employeeId": "AIOT2615",
+    "name": "EMPLOYEE FIFTEEN",
+    "designation": "PROJECT ENGINEER",
+    "department": "PROJECTS",
+    "email": "employee15@gmail.com",
+    "phone": "",
+    "phoneDisplay": "",
+    "profileImage": "assets/AIOT2615.jpg",
+    "companyLogo": "assets/company-logo.png",
+    "themeColor": "orange",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/employee15",
+        "icon": "fa-brands fa-linkedin-in"
+      },
+      { "name": "WhatsApp", "url": "", "icon": "fa-brands fa-whatsapp" },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/employee15",
+        "icon": "fa-brands fa-instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/employee15",
+        "icon": "fa-brands fa-github"
+      },
+      { "name": "Portfolio", "url": "", "icon": "fa-solid fa-globe" }
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#080D1A" />
+
+    <meta
+      name="description"
+      content="ANBU IoT Employee Digital ID Card System"
+    />
+
+    <title>ANBU IoT | Employee Digital ID Card</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Barcode Library -->
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"
+    ></script>
+
+    <!-- JavaScript -->
+
+    <script defer src="js/app.js"></script>
+  </head>
+
+  <body>
+    <main class="card" id="employeeCard">
+      <!-- Company Logo -->
+
+      <img
+        class="company-logo"
+        id="companyLogo"
+        src="assets/company-logo.png"
+        alt="ANBU IoT Company Logo"
+      />
+
+      <!-- Department Watermark -->
+
+      <div
+        class="department-watermark"
+        id="departmentWatermark"
+        aria-hidden="true"
+      ></div>
+
+      <!-- Profile Image -->
+
+      <section class="profile-area">
+        <div class="profile-frame">
+          <img id="profileImage" alt="Employee Profile" />
+        </div>
+      </section>
+
+      <!-- Employee Information -->
+
+      <section class="profile-info">
+        <!-- Employee Name -->
+
+        <h1 class="employee-name" id="employeeName"></h1>
+
+        <!-- Designation Typing Animation -->
+
+        <p class="designation">
+          <span id="typedDesignation"></span>
+
+          <span class="typing-cursor" aria-hidden="true"> </span>
+        </p>
+
+        <!-- Employee ID -->
+
+        <div class="employee-id">
+          <span class="status-dot"></span>
+
+          <span>
+            EMP_ID :
+
+            <strong id="employeeId"></strong>
+          </span>
+        </div>
+
+        <!-- Contact Details -->
+
+        <div class="contact-list">
+          <!-- Email -->
+
+          <a class="contact-item" id="emailLink" aria-label="Employee email">
+            <i class="fa-solid fa-envelope"></i>
+
+            <span id="emailText"></span>
+          </a>
+
+          <!-- Phone -->
+
+          <a class="contact-item" id="phoneLink" aria-label="Employee phone">
+            <i class="fa-solid fa-phone"></i>
+
+            <span id="phoneText"></span>
+          </a>
+        </div>
+
+        <!-- Social Media Links -->
+
+        <nav
+          class="social-links"
+          id="socialLinks"
+          aria-label="Social media links"
+        ></nav>
+      </section>
+
+      <!-- Employee Barcode -->
+
+      <aside class="barcode-wrap">
+        <svg id="employeeBarcode"></svg>
+
+        <span class="barcode-label" id="barcodeLabel"> </span>
+      </aside>
+    </main>
+  </body>
+</html>
